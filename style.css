@@ -417,6 +417,16 @@ header{
     .products-container{
     grid-template-columns: repeat(auto-fit, minmax(50px, auto));
     }
+    .products-container{
+        display: flex;
+        justify-content: space-evenly;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .products-containe .box{
+        width: auto;
+    }
 }
 
 @media(max-width:768px){
